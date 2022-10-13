@@ -1,0 +1,5 @@
+EXCLUDE_DELETED_ITEMS=true
+PROJECT_GROUPID=org.example.omew_dev_test
+PROJECT_VERSION=7.3.1
+SKIP_LOOP_DEPENDENCY_CHECK=true
+eclipse.preferences.version=1
