@@ -8,6 +8,9 @@
   <packaging>pom</packaging>
   <name>OMEW_DEV_TEST Codes Master</name>
   <url>http://www.talend.org/</url>
+  <modules>
+    <module>code/routines</module>
+  </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
     <talend.project.name>OMEW_DEV_TEST</talend.project.name>
