@@ -16,8 +16,8 @@
     <signer.version>7.3.1</signer.version>
     <talend.project.name>OMEW_DEV_TEST</talend.project.name>
     <encoding>UTF-8</encoding>
-    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${project.version}</talend.docker.tag>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
