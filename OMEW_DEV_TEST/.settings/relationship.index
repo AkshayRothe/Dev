@@ -848,6 +848,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_GNCxQFE1Ee2deIoIKNojlA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_t5eSQJU1EemyXKhnY_-q_g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_t5eSQJU1EemyXKhnY_-q_g - Sales_Data__c",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_L8pakPBQEeej-ttb3J_hXw",
     "version" : "0.1",
     "type" : "job"
