@@ -31,7 +31,7 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "STATS_DEFAULT_PROJECTSETTING",
-        "value" : "true",
+        "value" : "false",
         "contextMode" : false
       }, {
         "show" : true,
@@ -269,7 +269,7 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "IMPLICT_DEFAULT_PROJECTSETTING",
-        "value" : "true",
+        "value" : "false",
         "contextMode" : false
       }, {
         "show" : true,
