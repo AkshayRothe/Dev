@@ -1,0 +1,18 @@
+package routines;
+
+
+public class RemoveNull {
+
+	public static String remNull(String message) {
+        if (message == null) {
+            message = ""; 
+        }
+        else
+        	message = message.trim();
+    
+        return message;
+    }
+
+
+
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="DEV" xmi:id="_1mp1wEutEe2_k4lFBEOxRg" xmi:version="2.0">
+  <contextParameter comment="" name="connection_SalesForceSource_sessionDirectory" prompt="connection_SalesForceSource_sessionDirectory?" promptNeeded="false" type="id_String" value="" xmi:id="_1mp1wUutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth2JwtFlow_issuer" prompt="connection_SalesForceSource_oauth2JwtFlow_issuer?" promptNeeded="false" type="id_String" value="" xmi:id="_1mp1wkutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth2JwtFlow_keyStore" prompt="connection_SalesForceSource_oauth2JwtFlow_keyStore?" promptNeeded="false" type="id_String" value="" xmi:id="_1mp1w0utEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth_clientId" prompt="connection_SalesForceSource_oauth_clientId?" promptNeeded="false" type="id_String" value="" xmi:id="_1mp1xEutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_userPassword_securityKey" prompt="connection_SalesForceSource_userPassword_securityKey?" promptNeeded="false" type="id_Password" value="" xmi:id="_1mp1xUutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_apiVersion" prompt="connection_SalesForceSource_apiVersion?" promptNeeded="false" type="id_String" value="45.0" xmi:id="_1mp1xkutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth2FlowType" prompt="connection_SalesForceSource_oauth2FlowType?" promptNeeded="false" type="id_String" value="JWT_Flow" xmi:id="_1mp1x0utEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth_callbackHost" prompt="connection_SalesForceSource_oauth_callbackHost?" promptNeeded="false" type="id_String" value="" xmi:id="_1mp1yEutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_proxy_host" prompt="connection_SalesForceSource_proxy_host?" promptNeeded="false" type="id_String" value="" xmi:id="_1mp1yUutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth_tokenFile" prompt="connection_SalesForceSource_oauth_tokenFile?" promptNeeded="false" type="id_String" value="" xmi:id="_1mp1ykutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_clientId" prompt="connection_SalesForceSource_clientId?" promptNeeded="false" type="id_String" value="" xmi:id="_1mp1y0utEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth_callbackPort" prompt="connection_SalesForceSource_oauth_callbackPort?" promptNeeded="false" type="id_Integer" value="" xmi:id="_1mp1zEutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_timeout" prompt="connection_SalesForceSource_timeout?" promptNeeded="false" type="id_Integer" value="60000" xmi:id="_1mp1zUutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth2JwtFlow_subject" prompt="connection_SalesForceSource_oauth2JwtFlow_subject?" promptNeeded="false" type="id_String" value="" xmi:id="_1mp1zkutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_proxy_userPassword_userId" prompt="connection_SalesForceSource_proxy_userPassword_userId?" promptNeeded="false" type="id_String" value="" xmi:id="_1mp1z0utEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_loginType" prompt="connection_SalesForceSource_loginType?" promptNeeded="false" type="id_String" value="Basic" xmi:id="_1mp10EutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth_clientSecret" prompt="connection_SalesForceSource_oauth_clientSecret?" promptNeeded="false" type="id_Password" value="" xmi:id="_1mp10UutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_endpoint" prompt="connection_SalesForceSource_endpoint?" promptNeeded="false" type="id_String" value="https://login.salesforce.com/services/Soap/u/37.0" xmi:id="_1mp10kutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth2JwtFlow_audience" prompt="connection_SalesForceSource_oauth2JwtFlow_audience?" promptNeeded="false" type="id_String" value="https://login.salesforce.com" xmi:id="_1mp100utEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth2JwtFlow_certificateAlias" prompt="connection_SalesForceSource_oauth2JwtFlow_certificateAlias?" promptNeeded="false" type="id_String" value="" xmi:id="_1mp11EutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth2JwtFlow_keyStorePassword" prompt="connection_SalesForceSource_oauth2JwtFlow_keyStorePassword?" promptNeeded="false" type="id_Password" value="" xmi:id="_1mp11UutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_oauth2JwtFlow_expirationTime" prompt="connection_SalesForceSource_oauth2JwtFlow_expirationTime?" promptNeeded="false" type="id_Integer" value="" xmi:id="_1mp11kutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_userPassword_userId" prompt="connection_SalesForceSource_userPassword_userId?" promptNeeded="false" type="id_String" value="cvo_mdm@cenveo.com" xmi:id="_1mp110utEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_userPassword_password" prompt="connection_SalesForceSource_userPassword_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:9karbGdaJIYvxxG++z2k4dIGcFIGq8lKQUMzXcGGpTAjbLCiytGv" xmi:id="_1mp12EutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_proxy_userPassword_password" prompt="connection_SalesForceSource_proxy_userPassword_password?" promptNeeded="false" type="id_Password" value="" xmi:id="_1mp12UutEe2_k4lFBEOxRg"/>
+  <contextParameter comment="" name="connection_SalesForceSource_proxy_port" prompt="connection_SalesForceSource_proxy_port?" promptNeeded="false" type="id_Integer" value="" xmi:id="_1mp12kutEe2_k4lFBEOxRg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_278029a4-1018-46bf-946a-5036da472741"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>51zmDZRt2JVNFA7rITXsidIL8KcwasQv64yVrXXGgZtzwJbsKDpkzKbfzPv7AA+O0ypCiUQSLDOW&#13;
+7t147wnDWQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b719429a-1fe8-4281-8b30-97bbde688185"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>BJ3WCLM5tAMgXVWclvVzDhsG+qOrcHR47L515CN7fiJDn/+CulabdsquiitSe2kINr/BJiYZvGTO&#13;
+CnKNoPDT/A==</DigestValue></Reference></SignedInfo><SignatureValue>Kt750TSZrGAfcvUOI/97kjAPRAE60mJluaje+IxjBfz6HDE8F0VNTHC4zuzHJzKN6uehYkL5sshr&#13;
+Uuplsj6pe6FDefeJoPApxmNw0jvlPiCjkHGov6djB2qDGgrwt3gNZN/TSRyQIkzPx5buWJB0EN7a&#13;
+tF9gSsmgUGDiXO8LLcQ3hMXo+Whw17qf1Rsy1uSBdCvGwgRNPV7ST6EDA39rMNFS72l7ujEx5YD9&#13;
+Bd1eNJ+L073BhjbaWNnWfpBycs9Oy1YDNYsZHNrLM6SBnIdHcGuAeDz8Ag7UqLsd2DQBFz/TBqmb&#13;
+NcyHB570xQ1A4hPDMrl4p9MIlv+1hpnDSJ0q9A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b719429a-1fe8-4281-8b30-97bbde688185" Target="#_278029a4-1018-46bf-946a-5036da472741"><Timestamp>2022-10-21 11:14:03</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>

@@ -1,0 +1,61 @@
+{
+  "itemId" : "_AHu0gM70Eem0nP53Niilrw",
+  "contextList" : [ {
+    "contextName" : "PROD",
+    "repoId" : "_BONx4M7oEemN5a1nSphptw",
+    "parameterList" : [ {
+      "id" : "_1jhCMUutEe2_k4lFBEOxRg",
+      "name" : "connection_NotificationEnvironment"
+    }, {
+      "id" : "_1jhCMkutEe2_k4lFBEOxRg",
+      "name" : "connection_NotificationEnvPath"
+    }, {
+      "id" : "_1jhCM0utEe2_k4lFBEOxRg",
+      "name" : "connection_NotificationPath"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_fFicYNFYEemjf-znDmPcFw",
+    "parameterList" : [ {
+      "id" : "_1n2IlkutEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_AdditionalParams"
+    }, {
+      "id" : "_1n2Ik0utEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Database"
+    }, {
+      "id" : "_1n2Il0utEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Login"
+    }, {
+      "id" : "_1n2IlEutEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Password"
+    }, {
+      "id" : "_1n2IkUutEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Port"
+    }, {
+      "id" : "_1n2IlUutEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Schema"
+    }, {
+      "id" : "_1n2IkkutEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_4smnsMTXEemNE8XWRY1hsQ",
+    "parameterList" : [ {
+      "id" : "_1hIckUutEe2_k4lFBEOxRg",
+      "name" : "connection_MailTo"
+    }, {
+      "id" : "_1hIckkutEe2_k4lFBEOxRg",
+      "name" : "connection_MailFrom"
+    }, {
+      "id" : "_1hIck0utEe2_k4lFBEOxRg",
+      "name" : "connection_MailCc"
+    }, {
+      "id" : "_1hIclEutEe2_k4lFBEOxRg",
+      "name" : "connection_MailBody"
+    }, {
+      "id" : "_1hIclUutEe2_k4lFBEOxRg",
+      "name" : "connection_MailSubject"
+    } ]
+  } ]
+}

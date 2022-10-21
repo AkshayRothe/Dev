@@ -1,0 +1,99 @@
+package routines;
+
+import java.io.UnsupportedEncodingException;
+import java.math.BigDecimal;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DB2ConvertFunc
+{
+    public static String HEXConvEBC(String message) throws UnsupportedEncodingException
+    {
+        String result = "";
+        int len = 0;
+        String clmsg = "";
+        
+       
+    	if (message == null || message.length() <= 0 || message.length() == 0)
+        {
+            result = "";
+        }
+    	else
+    	{
+    		clmsg = message.replaceFirst("0x", "");
+    		len = clmsg.length();
+    		for(int i = 0; i < len; i = i + 2)
+    		{
+    			try
+    			{
+    				clmsg = clmsg.trim();
+    				byte b[] = {(byte) Integer.parseInt(clmsg.substring(i, i + 2), 16)};
+					result = result + (new String(b, "Cp037"));		
+					
+								
+				}
+    			catch (UnsupportedEncodingException e)
+    			{
+					e.printStackTrace();
+				}catch(NumberFormatException ex){ 
+					ex.printStackTrace();
+					
+				}
+    		}
+    	}
+  
+    
+    	
+		return result.trim();
+    }
+    public static Date DB2DateConv(Float DB2Date1 )
+    {
+    	
+    	//System.out.println("J : "+DB2Date1);
+    	int DB2Date = DB2Date1.intValue();
+    	int year = (int) (DB2Date / 1000);
+    	int day = (int) (DB2Date - (1000 * (DB2Date / 1000)) - 1);
+    	return TalendDate.addDate(TalendDate.addDate(TalendDate.parseDate("yyyy-MM-dd", "1900-01-01", true), year, "yyyy"), day, "dd");
+    }
+    
+    public static String readTime(String value){
+ 	   
+       
+ 	   
+ 	   String result = "";
+ 	   
+ 	   if (value == null || value.length() <= 0 || value == " ")
+        {
+            result = "00:00:00";
+        }
+ 	   else if(value.length() >= 6){
+ 		   
+ 		   value = value.replaceAll("\\.0*$", "");
+     	   value = ("000000" + value).substring(value.length());
+     	   String hr  = value.substring(0, 2);
+     	   String min = value.substring(2,4);
+     	   String sec = value.substring(4,6);
+     	   result = hr+":"+min+":"+sec;
+     	
+        }
+ 	return result;
+ 	   
+    }
+     
+     public static Date DateTime(String dt,String time) throws java.text.ParseException{
+     	
+    	if(time.length()==0)
+    		time = "00:00:00";
+    	 
+     	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");     	  	
+     	String dateInString = dt+" "+time;
+     	Date date = sdf.parse(dateInString);
+     	//System.out.println("dt "+dt);
+     	//System.out.println("time "+time);
+     	//System.out.println("date "+date);
+     	
+ 		return date;
+     }
+    
+   
+}

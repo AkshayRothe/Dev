@@ -1,0 +1,29 @@
+{
+  "itemId" : "_-PveoO7vEeeHH-rCOlndDA",
+  "contextList" : [ {
+    "contextName" : "PROD",
+    "repoId" : "_jCWDwO7wEeeHH-rCOlndDA",
+    "parameterList" : [ {
+      "id" : "_1ktVAUutEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Database"
+    }, {
+      "id" : "_1ktVAkutEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Password"
+    }, {
+      "id" : "_1ktVA0utEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Schema"
+    }, {
+      "id" : "_1ktVBEutEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Port"
+    }, {
+      "id" : "_1ktVBUutEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Login"
+    }, {
+      "id" : "_1ktVBkutEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_AdditionalParams"
+    }, {
+      "id" : "_1ktVB0utEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Server"
+    } ]
+  } ]
+}

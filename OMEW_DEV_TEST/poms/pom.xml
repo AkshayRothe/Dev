@@ -10,6 +10,31 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/joblets/email_notification_0.1</module>
+    <module>jobs/process/Folder_Dimension_Jobs/copy_task_job_rem_dimension_002_dim_sfdc_account_0.1</module>
+    <module>jobs/process/Folder_Dimension_Jobs/job_rem_dimension_001_dim_sfdc_opportunity_0.1</module>
+    <module>jobs/process/Folder_FactsAndLoad_Jobs/job_rem_fact_001_fact_sfdc_opportunity_0.1</module>
+    <module>jobs/process/Folder_FactsAndLoad_Jobs/job_rem_fact_002_fact_sfdc_sales_0.1</module>
+    <module>jobs/process/Folder_Staging_Jobs/copy_of_task_job_rem_staging_003_stg_account_0.4</module>
+    <module>jobs/process/Folder_Staging_Jobs/copy_of_task_job_rem_staging_003_stg_account_0.5</module>
+    <module>jobs/process/Folder_Staging_Jobs/copy_of_task_job_rem_staging_003_stg_account_0.6</module>
+    <module>jobs/process/Folder_Staging_Jobs/copy_of_task_job_rem_staging_003_stg_account_0.7</module>
+    <module>jobs/process/Folder_Staging_Jobs/copy_of_task_job_rem_staging_003_stg_account_0.8</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_001_stg_opportunity_product_0.1</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_001_stg_opportunity_product_0.2</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_002_stg_opportunity_0.1</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_002_stg_opportunity_0.2</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_002_stg_opportunity_0.3</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_002_stg_opportunity_0.4</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_004_stg_plant_0.1</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_004_stg_plant_0.2</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_005_stg_plant_product_0.1</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_005_stg_plant_product_0.2</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_007_stg_product_0.1</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_007_stg_product_0.2</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_008_stg_sales_0.1</module>
+    <module>jobs/process/Folder_Staging_Jobs/job_rem_staging_008_stg_sales_0.2</module>
+    <module>jobs/process/Folder_Staging_Jobs/task_job_rem_staging_006_stg_user_0.3</module>
     <module>jobs/process/job_test_0.1</module>
   </modules>
   <properties>

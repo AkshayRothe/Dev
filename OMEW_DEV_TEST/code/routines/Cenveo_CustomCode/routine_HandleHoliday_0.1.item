@@ -1,0 +1,96 @@
+package routines;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Calendar;
+
+
+public class routine_HandleHoliday {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+    public static void helloExample(String message) {
+        if (message == null) {
+            message = "World"; //$NON-NLS-1$
+        }
+        System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
+    }
+    
+    
+    public static Date getWorkingDay(Date date,ArrayList HolidayList ) {
+    	Date tempDate=null;
+    	int flag=0;
+        while(tempDate!=date)
+        {
+        if(flag!=0)
+        {
+        	date=tempDate;
+        }
+    	date=checkWeekDay(date);
+    	//System.out.println(date);
+    	if(HolidayList.contains(date))
+    	{
+    		tempDate=TalendDate.addDate(date,1, "dd");
+    	}
+    	else 
+    	{
+    		tempDate=date;
+    	}
+    	flag=1;
+        }
+    return date;	
+    }
+    
+    
+public static Date checkWeekDay(Date date ) {
+        
+    	int DayOfWeek=TalendDate.getPartOfDate("DAY_OF_WEEK",date) ;
+    	
+    	if(DayOfWeek==1)
+    	{
+    		date=TalendDate.addDate(date,1, "dd");
+    		
+    	}
+    	return date;
+    	
+    }
+    
+
+
+public static Integer getHolidayCount(Date date1,Date date2,ArrayList HolidayList ) {
+	
+   int holidayCount=0;
+	if(date1!=null)
+	{
+		
+	  while (TalendDate.compareDate(date2, date1)>=0)
+   {
+	   int DayOfWeek=TalendDate.getPartOfDate("DAY_OF_WEEK",date1) ;
+   
+   	if(DayOfWeek==1)
+   	{
+   		holidayCount++;
+   	}
+   	
+   	else if(HolidayList.contains(date1))
+   	{
+   		holidayCount++;	
+   	}
+      date1=TalendDate.addDate(date1, 1, "dd");
+  }
+	}  
+return holidayCount;	
+}
+
+
+}

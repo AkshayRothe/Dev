@@ -1,0 +1,136 @@
+{
+  "itemId" : "_PfXloO7rEeeOhZ5vjURlJw",
+  "contextList" : [ {
+    "contextName" : "PROD",
+    "repoId" : "_jCWDwO7wEeeHH-rCOlndDA",
+    "parameterList" : [ {
+      "id" : "_1ktVB0utEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Server"
+    }, {
+      "id" : "_1ktVBEutEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Port"
+    }, {
+      "id" : "_1ktVAUutEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Database"
+    }, {
+      "id" : "_1ktVBUutEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Login"
+    }, {
+      "id" : "_1ktVAkutEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Password"
+    }, {
+      "id" : "_1ktVA0utEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_Schema"
+    }, {
+      "id" : "_1ktVBkutEe2_k4lFBEOxRg",
+      "name" : "connection_SFDCBIStaging_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_4smnsMTXEemNE8XWRY1hsQ",
+    "parameterList" : [ {
+      "id" : "_1hIclEutEe2_k4lFBEOxRg",
+      "name" : "connection_MailBody"
+    }, {
+      "id" : "_1hIck0utEe2_k4lFBEOxRg",
+      "name" : "connection_MailCc"
+    }, {
+      "id" : "_1hIckkutEe2_k4lFBEOxRg",
+      "name" : "connection_MailFrom"
+    }, {
+      "id" : "_1hIclUutEe2_k4lFBEOxRg",
+      "name" : "connection_MailSubject"
+    }, {
+      "id" : "_1hIckUutEe2_k4lFBEOxRg",
+      "name" : "connection_MailTo"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_BONx4M7oEemN5a1nSphptw",
+    "parameterList" : [ {
+      "id" : "_1jhCMUutEe2_k4lFBEOxRg",
+      "name" : "connection_NotificationEnvironment"
+    }, {
+      "id" : "_1jhCMkutEe2_k4lFBEOxRg",
+      "name" : "connection_NotificationEnvPath"
+    }, {
+      "id" : "_1jhCM0utEe2_k4lFBEOxRg",
+      "name" : "connection_NotificationPath"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_fFicYNFYEemjf-znDmPcFw",
+    "parameterList" : [ {
+      "id" : "_1n2IlkutEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_AdditionalParams"
+    }, {
+      "id" : "_1n2Ik0utEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Database"
+    }, {
+      "id" : "_1n2Il0utEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Login"
+    }, {
+      "id" : "_1n2IlEutEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Password"
+    }, {
+      "id" : "_1n2IkUutEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Port"
+    }, {
+      "id" : "_1n2IlUutEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Schema"
+    }, {
+      "id" : "_1n2IkkutEe2_k4lFBEOxRg",
+      "name" : "connection_TalendAdmin_Server"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_IY2uoPsREem5xuv-BwGdVA",
+    "parameterList" : [ {
+      "id" : "_1c9uQUutEe2_k4lFBEOxRg",
+      "name" : "connection_AMC_Schema"
+    }, {
+      "id" : "_1c9uQkutEe2_k4lFBEOxRg",
+      "name" : "connection_AMC_Server"
+    }, {
+      "id" : "_1c9uQ0utEe2_k4lFBEOxRg",
+      "name" : "connection_AMC_Password"
+    }, {
+      "id" : "_1c9uREutEe2_k4lFBEOxRg",
+      "name" : "connection_AMC_Port"
+    }, {
+      "id" : "_1c9uRUutEe2_k4lFBEOxRg",
+      "name" : "connection_AMC_Database"
+    }, {
+      "id" : "_1c9uRkutEe2_k4lFBEOxRg",
+      "name" : "connection_AMC_AdditionalParams"
+    }, {
+      "id" : "_1c9uR0utEe2_k4lFBEOxRg",
+      "name" : "connection_AMC_Login"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_wGE_cPEXEeeOc7LXhfZyRA",
+    "parameterList" : [ {
+      "id" : "_1dtVIUutEe2_k4lFBEOxRg",
+      "name" : "connection_BIDW_Password"
+    }, {
+      "id" : "_1dtVIkutEe2_k4lFBEOxRg",
+      "name" : "connection_BIDW_Port"
+    }, {
+      "id" : "_1dtVI0utEe2_k4lFBEOxRg",
+      "name" : "connection_BIDW_Login"
+    }, {
+      "id" : "_1dtVJEutEe2_k4lFBEOxRg",
+      "name" : "connection_BIDW_Database"
+    }, {
+      "id" : "_1dtVJUutEe2_k4lFBEOxRg",
+      "name" : "connection_BIDW_Server"
+    }, {
+      "id" : "_1dtVJkutEe2_k4lFBEOxRg",
+      "name" : "connection_BIDW_AdditionalParams"
+    }, {
+      "id" : "_1dtVJ0utEe2_k4lFBEOxRg",
+      "name" : "connection_BIDW_Schema"
+    } ]
+  } ]
+}

@@ -1,0 +1,50 @@
+package routines;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+
+public class DateConvertion {
+
+    
+    public static String  dateToString(Date date_PO) {
+    	if(date_PO !=null){
+    	DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd");
+    	String strDate = dateFormat.format(date_PO);
+    	return strDate;
+    	}
+		return "";
+    	
+		
+    }
+    
+    public static Date  dateFormat(Date date_PO) throws ParseException {
+    	if(date_PO !=null){
+    		SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+    
+    	String strDate = dateFormat.format(date_PO);
+    	
+    	Date date=dateFormat.parse(strDate);
+    	return date;
+    	
+    	
+    	
+    	}
+		return null;
+    	
+		
+    }
+    
+    
+    public static String  dateToString2(Date date_PO) throws ParseException {
+        if(date_PO !=null){
+         SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+       
+        String strDate = dateFormat.format(date_PO);
+        return strDate;
+            }
+			  return null;
+  	}
+}
