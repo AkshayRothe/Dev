@@ -8,6 +8,9 @@
   <packaging>pom</packaging>
   <name>CDS_PRODUCT_SYNC_LOAD Codes Master</name>
   <url>http://www.talend.org/</url>
+  <modules>
+    <module>code/routines</module>
+  </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
     <talend.project.name>CDS_PRODUCT_SYNC_LOAD</talend.project.name>
