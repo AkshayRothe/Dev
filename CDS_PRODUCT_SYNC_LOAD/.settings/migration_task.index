@@ -1,0 +1,8 @@
+{
+  "migrationTask" : [ {
+    "id" : "org.talend.repository.model.migration.CheckProductVersionMigrationTask",
+    "breaks" : "7.1.0",
+    "version" : "7.1.1",
+    "status" : "default"
+  } ]
+}
